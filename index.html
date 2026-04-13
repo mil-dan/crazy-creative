@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <script src="./script.js" defer></script>
+    <title>Crazy Creative</title>
+</head>
+<body>
+    <header class="header" id="Home">
+        <div class="header__logo logo">
+            <a href="#Home"><img src="./images/Logo.svg" alt="Logo" width="129" height="52" loading="lazy"></a>
+        </div>
+        <button class="header__burger" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="#About" class="header__list-link">About</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#Services" class="header__list-link">Services</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#Prices" class="header__list-link">Prices</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#FAQ" class="header__list-link">FAQ</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__overlay"></div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__main">
+                <h1 class="hero__main-title">Design that’s crazy good.</h1>
+                <img src="./images/hero/hero-1.svg" alt="The painted man holds his bomb-head in his hands." width="2095" height="1451" loading="lazy" class="hero__main-image">
+            </div>
+            <div class="hero__execution">
+                <h2 class="hero__execution-title gradient-title">Have an idea you want to flush out?</h2>
+                <p class="hero__execution-subtitle">You need someone that's able to understand and execute your vision.</p>
+                <div class="hero__execution-container">
+                    <img src="./images/hero/hero-2.svg" alt="The brain on a pedestal." width="1200" height="533" loading="lazy" class="hero__execution-image">
+                    <div class="hero__execution-ticker">
+                        <p>You deserve something special</p>
+                        <img src="./images/hero/diamond.svg" alt="Diamond" width="44" height="52" loading="lazy">
+                        <p>You deserve something special</p>
+                        <img src="./images/hero/diamond.svg" alt="Diamond" width="44" height="52" loading="lazy">
+                        <p>You deserve something special</p>
+                        <img src="./images/hero/diamond.svg" alt="Diamond" width="44" height="52" loading="lazy">
+                        <p>You deserve something special</p>
+                        <img src="./images/hero/diamond.svg" alt="Diamond" width="44" height="52" loading="lazy">
+                        <p>You deserve something special</p>
+                        <img src="./images/hero/diamond.svg" alt="Diamond" width="44" height="52" loading="lazy">
+                        <p>You deserve something special</p>
+                        <img src="./images/hero/diamond.svg" alt="Diamond" width="44" height="52" loading="lazy">
+                        <p>You deserve something special</p>
+                        <img src="./images/hero/diamond.svg" alt="Diamond" width="44" height="52" loading="lazy">
+                        <p>You deserve something special</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__switch">
+                <h2 class="hero__switch-title gradient-title">Feeling stuck and need to spice it up?</h2>
+                <p class="hero__switch-subtitle">You need someone that can flip the crazy switch and reimagine your brand (try it).</p>
+                <div class="hero__switch-container">
+                    <div class="hero__switch-indicator" id="indicator"></div>
+                    <button type="button" class="hero__switch-button" title="Turn on the crazy creativity." id="switch"><span class="sr-only">Turn on the crazy creativity.</span></button>
+                </div>
+                <div class="hero__switch-image">
+                    <img src="./images/hero/hero-3.svg" alt="A painted man sits at a computer at night." width="1412" height="706" loading="lazy"  id="switchImg">
+                </div>
+            </div>
+            <div class="hero__agency">
+                <p class="hero__agency-note note">YOU'VE COME TO THE RIGHT PLACE</p>
+                <h2 class="hero__agency-title">Crazy Creative is a solo design agency with super powers.</h2>
+                <div class="hero__agency-image">
+                    <img src="./images/hero/hero-5.svg" alt="A sword that radiates multicolored rays." width="1440" height="801" loading="lazy">
+                </div>
+            </div>
+        </section>
+        <section class="superpower container" id="About">
+                <p class="superpower__note note">Introducing</p>
+                <h2 class="superpower__title">The creative super powers your business is missing.</h2>
+                <article class="superpower__abilities ability">
+                    <p class="ability__note note">The ability to</p>
+                    <h3 class="ability__title">Understand and execute your vision.</h3>
+                    <ul class="ability__list card__list">
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-regular fa-comment fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">Translating Feedback</h4>
+                            <p class="ability__description card__description">Brain dumps organized into clear action items with timelines.</p>
+                        </li>
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-regular fa-copy fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">Providing Variations</h4>
+                            <p class="ability__description card__description">Seeing what you don't want can help clarify what you do want.</p>
+                        </li>
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-regular fa-compass fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">Navigating Ambiguity</h4>
+                            <p class="ability__description card__description">Verbal ideas to visual concepts make things a lot easier.</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="superpower__abilities ability ability_yellow">
+                    <p class="ability__note note">An efficiency oath to</p>
+                    <h3 class="ability__title">Make time consuming tasks disappear.</h3>
+                    <ul class="ability__list card__list">
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-regular fa-calendar-xmark fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">No Meetings</h4>
+                            <p class="ability__description card__description">Your day is already jam-packed so let's only meet when needed.</p>
+                        </li>
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-regular fa-file fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">No Contracts</h4>
+                            <p class="ability__description card__description">A simple monthly subscription without any commitments.</p>
+                        </li>
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-regular fa-file-lines fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">No Invoices</h4>
+                            <p class="ability__description card__description">Scheduled, automated payments make life easier for everyone.</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="superpower__abilities ability ability_purple">
+                    <p class="ability__note note">The skills to</p>
+                    <h3 class="ability__title">Laser focus on giving you what you want.</h3>
+                    <ul class="ability__list card__list">
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-solid fa-layer-group fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">Unlimited Requests</h4>
+                            <p class="ability__description card__description">Submit and create as many design requests as you'd like.</p>
+                        </li>
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-solid fa-bolt fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">Speedy Turnarounds</h4>
+                            <p class="ability__description card__description">Delivery typically within 1 or 2 business days at most.</p>
+                        </li>
+                        <li class="ability__item card__item">
+                            <span class="ability__icon card__icon"><i class="fa-solid fa-rotate fa-2xl"></i></span>
+                            <h4 class="ability__subtitle card__title">Unlimited Revisions</h4>
+                            <p class="ability__description card__description">Continuous refinement until you're 100% satisfied.</p>
+                        </li>
+                    </ul>
+                </article>
+        </section>
+        <section class="how-to container">
+            <p class="how-to__note note">How to</p>
+            <h2 class="how-to__title">Get instant access to creative super powers.</h2>
+            <p class="how-to__description">Crazy Creative operates on a subscription model. A design subscription is just like any other subscription you have. However, instead of unlimited access to streaming tv or music, you get unlimited access to a Senior Design Lead for the price of an entry level Junior Designer.</p>
+            <ul class="how-to__list card__list">
+                <li class="how-to__item card__item">
+                    <span class="how-to__item-icon card__icon"><i class="fa-solid fa-arrow-pointer fa-2xl"></i></span>
+                    <h3 class="how-to__item-title card__title">Subscribe</h3>
+                    <p class="how-to__item-description card__description">Subscribing is the easiest way to activate your new super powers.</p>
+                </li>
+                <li class="how-to__item card__item">
+                    <span class="how-to__item-icon card__icon"><i class="fa-solid fa-list-check fa-2xl"></i></span>
+                    <h3 class="how-to__item-title card__title">Add Tasks</h3>
+                    <p class="how-to__item-description card__description">Immediately begin by adding unlimited tasks to your backlog.</p>
+                </li>
+                <li class="how-to__item card__item">
+                    <span class="how-to__item-icon card__icon"><i class="fa-solid fa-download fa-2xl"></i></span>
+                    <h3 class="how-to__item-title card__title">Get Designs</h3>
+                    <p class="how-to__item-description card__description">Start receiving your designs within a couple of business days.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="bonus container_big">
+            <div class="bonus__content">
+                <p class="bonus__note note note_lime"><span class="note_lime-bg">Bonus</span>Never lose super powers</p>
+                <h2 class="bonus__title">Pause and reactivate your subscription at anytime.</h2>
+                <p class="bonus__description">We understand some months are busier than others and there's no need to get charged for something you're not using at the moment. Put your subscription on pause and all billing and active requests will be put on hold until you're ready to activate again.</p>
+            </div>
+            <div class="bonus__container">
+                <img src="./images/Bonus-diamond.svg" alt="Shining Diamond." width="265" height="314" loading="lazy" class="bonus__image">
+            </div>
+        </section>
+        <section class="benefits container">
+            <p class="benefits__note note">Sounds awesome Right?</p>
+            <h2 class="benefits__title">Here's why the subscription model works so well.</h2>
+            <ul class="benefits__list card__list">
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-regular fa-envelope fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Async Work</h3>
+                    <p class="benefits__item-description card__description">Do things on your own time, at your own pace, without any pressure.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-border-all fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Custom Boards</h3>
+                    <p class="benefits__item-description card__description">There's no limit to how many requests you can add to your design board.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-briefcase fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Easy Management</h3>
+                    <p class="benefits__item-description card__description">Take charge of your board and view backlogged, active, and finished tasks.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-user-group fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Team Collaboration</h3>
+                    <p class="benefits__item-description card__description">Invite your entire team to submit tasks and track progress.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-box-open fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Quick Delivery</h3>
+                    <p class="benefits__item-description card__description">No waiting around. Design delivery is within a 24-48 hour window.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-shield fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Top Notch Quality</h3>
+                    <p class="benefits__item-description card__description">From big to small, top notch quality is guaranteed on all projects.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-money-bills fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Fixed Monthly Rates</h3>
+                    <p class="benefits__item-description card__description">Only pay a fixed monthly price with no unexpected charges or fees.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-database fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Flexible & Scaleable</h3>
+                    <p class="benefits__item-description card__description">A plan that allows you to scale up, down, or pause if business is slow.</p>
+                </li>
+                <li class="benefits__item card__item">
+                    <span class="benefits__item-icon card__icon"><i class="fa-solid fa-fingerprint fa-2xl"></i></span>
+                    <h3 class="benefits__item-title card__title">Unique & Yours</h3>
+                    <p class="benefits__item-description card__description">Each project is designed specifically for you and your business needs.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="capabilities container container_big">
+            <div class="capabilities__content">
+                <p class="capabilities__note note note_pink">Capabilities</p>
+                <h2 class="capabilities__title">Skills that meet your needs – and obliterate your competition.</h2>
+            </div>
+            <ul class="capabilities__list">
+                <li class="capabilities__item">
+                    <span class="capabilities__icon sign sign_check"></span>
+                    <h3 class="capabilities__item-title">Landing Pages & Websites</h3>
+                    <p class="capabilities__item-description">Capture more leads with a stunning website.</p>
+                    <img src="./images/capabilities/designer.jpg" alt="The designer smiles while working at the computer." width="439" height="350" loading="lazy" class="capabilities__item-image">
+                </li>
+                <li class="capabilities__item">
+                    <span class="capabilities__icon sign sign_check"></span>
+                    <h3 class="capabilities__item-title">Mobile Apps</h3>
+                    <p class="capabilities__item-description">Got an idea? Let's bring that concept to life.</p>
+                    <img src="./images/capabilities/smartphone.jpg" alt="Smartphone" width="439" height="350" loading="lazy" class="capabilities__item-image">
+                </li>
+                <li class="capabilities__item">
+                    <span class="capabilities__icon sign sign_check"></span>
+                    <h3 class="capabilities__item-title">Logos & Branding</h3>
+                    <p class="capabilities__item-description">Upgrade your branding to be more professional.</p>
+                    <img src="./images/capabilities/dribbble.jpg" alt="Lots of small pictures with infographics." width="439" height="350" loading="lazy" class="capabilities__item-image">
+                </li>
+            </ul>
+        </section>
+        <section class="services container container_big" id="Services">
+            <div class="services__content">
+                <p class="services__note note note_pink">It doesn't stop there</p>
+                <h2 class="services__title">The list goes on.</h2>
+            </div>
+            <ul class="services__list">
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Illustrations</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Branding</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Product Design</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Website Design</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Consulting</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Graphic Design</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Marketing</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">UI/UX</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Framer</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Icons</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Print Design</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Packaging</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Banners & Posters</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Typography</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Social Media</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Infographics</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Appstore Graphics</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">Email Newsletters</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">NFT Art</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-check fa-2xl"></i></span>
+                    <p class="services__item-description">T-shirt & Merch</p>
+                </li>
+                <li class="services__item">
+                    <span class="services__item-icon"><i class="fa-solid fa-plus fa-2xl"></i></span>
+                    <p class="services__item-description">Don't see it? <span class="services__item-description services__item-description_pink">Ask!</span></p>
+                </li>
+            </ul>
+            <ul class="services__image-list">
+                <li class="services__image-item">
+                    <img src="./images/services/img-1.jpg" alt="Image" width="84" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-2.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-3.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-4.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-5.jpg" alt="Image" width="252" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-6.jpg" alt="Image" width="84" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-7.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-8.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-9.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-10.jpg" alt="Image" width="252" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-11.jpg" alt="Image" width="84" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-12.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-13.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-14.jpg" alt="Image" width="336" height="454" loading="lazy">
+                </li>
+                <li class="services__image-item">
+                    <img src="./images/services/img-15.jpg" alt="Image" width="252" height="454" loading="lazy">
+                </li>
+            </ul>
+        </section>
+        <section class="about container">
+            <div class="about__header">
+                <div class="about__designer">
+                    <p class="about__note note"><img src="./icons/certificate.svg" alt="Certificate" width="32" height="32" class="about__note-icon">Certified Crazy</p>
+                    <h2 class="about__name">Nick Jacoy</h2>
+                </div>
+                <img src="./images/nick-jackoy.jpg" alt="Nick Jacoy" width="1200" height="348" loading="lazy" class="about__image">
+            </div>
+            <div class="about__main">
+                <div class="about__content">
+                    <h3 class="about__title">The one that makes the magic happen.</h3>
+                    <p class="about__description">Meet "Pasta" Nick, your design guru and lover of Hazy IPAs. Nick has over 10 years of  professional design experience ranging in visual design, illustration, UX/UI design, as well as web development. He's been through the trenches of designing in various settings including freelance, creative agency, and startup. Nick's passion for great design is unmatched – you're in good hands!</p>
+                    <ul class="about__buttons">
+                        <li class="about__link"><a href="#" target="_blank">View Portfolio</a></li>
+                        <li class="about__link-icon"><a href="#" target="_blank" aria-label="Open an Instagram profile"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                        <li class="about__link-icon"><a href="#" target="_blank" aria-label="Open a Dribble profile"><i class="fa-brands fa-dribbble fa-lg"></i></a></li>
+                        <li class="about__link-icon"><a href="#" target="_blank" aria-label="Open a Linkedin profile"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <div class="about__img">
+                    <img src="./images/Magic-hand.svg" alt="Magic hand" width="435" height="233" loading="lazy">
+                </div>
+            </div>
+        </section>
+        <section class="pricing container container_big" id="Prices">
+            <p class="pricing__note note">It’s that time</p>
+            <h2 class="pricing__title">Are you ready to get crazy?</h2>
+            <div class="pricing__content">
+                <article class="pricing__card price-card">
+                    <h3 class="price-card__title">Start-Up</h3>
+                    <p class="price-card__note">1 design request at a time</p>
+                    <p class="price-card__price">&#36;1995</p>
+                    <p class="price-card__period">Per month. Pause or cancel anytime.</p>
+                    <button type="button" class="price-card__button" aria-label="Buy a subscription for $1995" title="Buy a subscription">Get Started</button>
+                    <h4 class="price-card__subtitle">What’s included?</h4>
+                    <ul class="price-card__features-list">
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Logo Design</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">UI Design</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Pitch Decks</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Email Templates</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Social Media Posts</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Single Page Web Design</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="pricing__card price-card price-card_popular">
+                    <h3 class="price-card__title">Mid-Level</h3>
+                    <p class="price-card__note">1 design request at a time</p>
+                    <p class="price-card__price">&#36;3995</p>
+                    <p class="price-card__period">Per month. Pause or cancel anytime.</p>
+                    <button type="button" class="price-card__button price-card__button_popular" aria-label="Buy a subscription for $3995" title="Buy a subscription">Get Started</button>
+                    <h4 class="price-card__subtitle">What’s included?</h4>
+                    <ul class="price-card__features-list">
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Full Branding Design & Strategy</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">UX / UI Design & Strategy</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">App Design</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Website Design & Dev</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">48 Hour Delivery</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Any Design You Need</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="pricing__card price-card">
+                    <h3 class="price-card__title">Enterprise</h3>
+                    <p class="price-card__note"><span>2 design</span>request at a time</p>
+                    <p class="price-card__price">&#36;5995</p>
+                    <p class="price-card__period">Per month. Pause or cancel anytime.</p>
+                    <button type="button" class="price-card__button" aria-label="Buy a subscription for $5995" title="Buy a subscription">Get Started</button>
+                    <h4 class="price-card__subtitle">What’s included?</h4>
+                    <ul class="price-card__features-list">
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Full Branding Design & Strategy</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">UX / UI Design & Strategy</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">App Design</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Website Design & Dev</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">72 Hour Delivery</p>
+                        </li>
+                        <li class="price-card__features-item">
+                            <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                            <p class="price-card__features-description">Any Design You Need</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="pricing__card price-card price-card_not-shure">
+                    <div class="price-card__content">
+                        <h3 class="price-card__title price-card__title_not-shure">Not sure yet?</h3>
+                        <p class="price-card__note price-card__note_not-shure">Trial</p>
+                        <p class="price-card__price">&#36;1995</p>
+                        <p class="price-card__period price-card__period_not-shure">Per month. Pause or cancel anytime.</p>
+                        <button type="button" class="price-card__button price-card__button_not-shure" aria-label="Buy a subscription for $1995" title="Buy a subscription">Start a Trial</button>
+                    </div>
+                    <div class="price-card__list">
+                        <h4 class="price-card__subtitle">What’s included?</h4>
+                        <ul class="price-card__features-list">
+                            <li class="price-card__features-item">
+                                <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                                <p class="price-card__features-description">Full Branding Design & Strategy</p>
+                            </li>
+                            <li class="price-card__features-item">
+                                <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                                <p class="price-card__features-description">UX / UI Design & Strategy</p>
+                            </li>
+                            <li class="price-card__features-item">
+                                <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                                <p class="price-card__features-description">App Design</p>
+                            </li>
+                            <li class="price-card__features-item">
+                                <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                                <p class="price-card__features-description">Website Design & Dev</p>
+                            </li>
+                            <li class="price-card__features-item">
+                                <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                                <p class="price-card__features-description">48 Hour Delivery</p>
+                            </li>
+                            <li class="price-card__features-item">
+                                <span class="price-card__features-icon"><i class="fa-solid fa-check"></i></span>
+                                <p class="price-card__features-description">Any Design You Need</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="compare container">
+            <p class="compare__note note">Let's Compare</p>
+            <h2 class="compare__title">When you have creative super powers vs when you don't.</h2>
+            <div class="compare__wrapper">
+                <div class="compare__main">
+                <div class="compare__content compare__content_legend">
+                    <h3 class="compare__subtitle">Let’s do a quick comparison:</h3>
+                    <ul class="compare__list compare__list_legend">
+                        <li class="compare__item">
+                            <p>Cost</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Turnaround Updates</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Low Commitment</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Tasks & Revisions</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Top Level Designers</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Time to Start</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Pricing Structure</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Meetings</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="compare__content compare__content_dark">
+                    <h3 class="compare__subtitle">Crazy Creative</h3>
+                    <ul class="compare__list">
+                        <li class="compare__item">
+                            <p>&#36;&#36;</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>48 hrs</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_check"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Unlimited</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_check"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Tomorrow</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Flat Monthly</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>As Needed</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="compare__content">
+                    <h3 class="compare__subtitle">Fiver-like Platforms</h3>
+                    <ul class="compare__list">
+                        <li class="compare__item">
+                            <p>&#36;</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Days</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_check"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Limited</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_cross"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Days</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>What you pay for</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_cross"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="compare__content">
+                    <h3 class="compare__subtitle">Freelancers / Employers</h3>
+                    <ul class="compare__list">
+                        <li class="compare__item">
+                            <p>&#36;&#36;&#36;</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Weeks</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_cross"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Limited</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_check"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Weeks</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Flexible</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_check"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="compare__content">
+                    <h3 class="compare__subtitle">Traditional Agencies</h3>
+                    <ul class="compare__list">
+                        <li class="compare__item">
+                            <p>&#36;&#36;&#36;&#36;&#36;</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>Weeks+</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_cross"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Limited</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_check"></span>
+                        </li>
+                        <li class="compare__item">
+                            <p>Weeks/Months</p>
+                        </li>
+                        <li class="compare__item">
+                            <p>High w/ surprises</p>
+                        </li>
+                        <li class="compare__item">
+                            <span class="sign sign_check"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="faq container" id="FAQ">
+            <p class="faq__note note">FAQ</p>
+            <h2 class="faq__title">Questions you may have.</h2>
+            <ul class="faq__list">
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">How much work is delivered on every update?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">Why wouldn't I just hire a full-time designer?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">Why wouldn't I just hire a freelance designer?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">Is there a limit to how many requests I can have?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">How quickly will I receive my designs?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">Who are the designers?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">How does the pause feature work?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">What programs do you design in?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                 <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">How do I manage my subscription?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                 <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">How do I request designs?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">Async? Why no calls or meetings?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">What if I don't like the design?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">What if I only have 1 request?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+                 <li class="faq__item">
+                    <button class="faq__btn btn" type="button">
+                        <span class="btn__icon"><i class="fa-solid fa-plus"></i></span>
+                        <span class="btn__question">Are there any refunds?</span>
+                    </button>
+                    <div class="faq__answer answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt maxime consectetur soluta dolorem est ipsa ducimus magnam. Consequuntur rerum accusantium, officia, quis magni aliquam porro, esse soluta distinctio dignissimos minima id animi eos odit.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__header">
+            <h2 class="footer__title">Are you ready to get crazy creative?</h2>
+            <div class="footer__image"></div>
+        </div>
+        <div class="footer__main">
+            <div class="footer__content">
+                <h3 class="footer__subtitle">I think so...</h3>
+                <p class="footer__description">A crazy simple design service to level-up your business!</p>
+                <div class="footer__actions">
+                    <a href="#" target="_blank" class="footer__link">Start Now</a>
+                    <button type="button" class="footer__btn">Book a Call</button>
+                </div>
+            </div>
+            <div class="footer__wrapper">
+                <img src="./images/Magic-hand-2.svg" alt="Magic hands" width="531" height="383" loading="lazy">
+            </div>
+        </div>
+        <div class="footer__docs">
+            <a href="#Home" class="footer__logo"><img src="./images/Logo.svg" alt="Logo" width="125" height="50" loading="lazy"></a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn">↑</button>
+</body>
+</html>

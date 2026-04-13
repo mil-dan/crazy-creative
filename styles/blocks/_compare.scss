@@ -1,0 +1,148 @@
+@import '../media';
+
+.compare {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-block: 105px 99px;
+
+    @include tablet {
+        padding-block: 80px;
+    }
+
+    &__wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    &__note {
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        max-width: 1001px;
+        width: 100%;
+        font-size: 4.25rem;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.0;
+        margin-bottom: 109px;
+
+        @include tablet {
+            font-size: 3rem;
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+
+        @include mobile {
+            font-size: 2rem;
+            font-weight: 400;
+        }
+    }
+
+    &__main {
+        display: grid;
+        grid-template-columns: 200px repeat(4, minmax(180px, 1fr));
+        gap: 16px;
+        min-width: 800px;
+
+        @include tablet {
+            gap: 1px;
+        }
+
+        @include mobile {
+            grid-template-columns: 150px repeat(4, minmax(180px, 1fr));
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 32px;
+        gap: 24px;
+
+        @include mobile {
+            padding: 16px;
+            gap: 12px;
+        }
+
+        &_legend {
+            position: sticky;
+            left: 0;
+            background: white;
+            z-index: 2;
+            padding: 32px 32px 32px 0;
+            align-items:start;
+            text-align: start;
+            
+            @include desktop {
+                box-shadow: 4px 0 10px rgba(0,0,0,0.05);
+            }
+
+            @include mobile-s {
+                padding: 16px 10px 32px 0;
+            }
+        }
+
+        &_dark {
+            background-color: var(--color-black);
+            color: var(--color-white);
+            border-radius: 16px;
+        }
+    }
+
+    &__subtitle {
+        max-width: 182px;
+        width: 100%;
+        font-size: 1.375rem;
+        font-weight: 600;
+        line-height: 1.1;
+
+        @include mobile-s {
+            font-size: 0.875rem;
+            font-weight: 400;
+        }
+    }
+
+    &__list {
+        font-size: 1.125rem;
+        justify-self: center;
+
+        @include mobile-s {
+            font-size: 0.875rem;
+        }
+
+        &_legend {
+            font-weight: 600;
+
+            li {
+                &:not(:last-child) {
+                    margin-bottom: 40px;
+
+                    @include mobile-s {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__item {
+
+        &:not(:last-child) {
+            margin-bottom: 45px;
+
+            @include mobile-s {
+                margin-bottom: 20px;
+            }
+        }
+       
+        span {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto;
+        }
+    }
+}

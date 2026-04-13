@@ -1,0 +1,111 @@
+@import '../media';
+
+.bonus {
+    display: flex;
+    padding-block: 105px 129px;
+    background: linear-gradient(90deg,rgba(114, 111, 247, 1) 65%, rgba(203, 251, 69, 1) 100%);
+    gap: 10px;
+
+    @include tablet {
+        padding-block: 80px;
+    }
+
+    @include mobile-s {
+        background: var(--color-purple);
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        max-width: 682px;
+
+        @include mobile {
+            align-items: center;
+            margin: 0 auto;
+        }
+    }
+
+    &__note {
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        color: var(--color-white);
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 1.0;
+        margin-bottom: 40px;
+
+        @include desktop {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        @include tablet {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__description {
+        color: var(--color-white);
+        font-size: 1.125rem;
+
+        @include tablet {
+            font-size: 1rem;
+        }
+    }
+
+    &__container {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        @include mobile {
+            display: none;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            background-color: var(--color-purple);
+
+            @include desktop {
+                width: 200px;
+                height: 200px;
+            }
+
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+
+    &__image {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @include desktop {
+            width: 150px;
+            height: 150px;
+        }
+
+        @include mobile {
+            display: none;
+        }
+    }
+
+}

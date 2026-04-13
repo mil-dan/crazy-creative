@@ -1,0 +1,41 @@
+@import '../media';
+
+.note{
+    color: var(--color-purple);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @include mobile {
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    &_lime {
+        color: var(--color-lime);
+    }
+
+    &_lime-bg {
+        color: var(--color-black);
+        background-color: var(--color-lime);
+        padding: 8px 16px 10px;
+        border-radius: 8px;
+        margin-right: 16px;
+
+        @include mobile {
+            padding: 8px 10px;
+            font-size: 0.875rem;
+            margin-right: 10px;
+            font-weight: 500;
+        }
+    }
+
+    &_pink {
+        color: var(--color-pink);
+
+        @include mobile {
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+    }
+}

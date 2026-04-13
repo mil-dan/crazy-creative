@@ -1,0 +1,22 @@
+@import '../media';
+
+.gradient-title {
+        font-size: 4.5rem;
+        font-weight: 800;
+        line-height: 1.1;
+        background: linear-gradient(
+                    90deg,
+                    #ffffff,
+                    #b7a8ff
+                    );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include tablet {
+                font-size: 3rem;
+        }
+
+        @include mobile {
+                font-size: 2rem;
+        }
+}

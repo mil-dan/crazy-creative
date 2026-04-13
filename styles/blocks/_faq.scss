@@ -1,0 +1,51 @@
+@import '../media';
+
+.faq {
+    padding-block: 105px;
+
+    @include tablet {
+        padding-block: 50px;
+    }
+
+    &__note {
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        max-width: 1001px;
+        width: 100%;
+        font-size: 4.25rem;
+        font-weight: 700;
+        margin-bottom: 87px;
+
+        @include tablet {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+
+        @include mobile {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        border-bottom: 1px solid var(--color-gray-on-black);
+    }
+
+    &__answer {
+        font-size: 1.125rem;
+        padding-bottom: 8px;
+        display: none;
+
+        @include tablet {
+            font-size: 1rem;
+        }
+    }
+}

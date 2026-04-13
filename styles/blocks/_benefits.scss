@@ -1,0 +1,68 @@
+@import '../media';
+
+.benefits {
+    padding-block: 105px 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+        padding-block: 80px;
+    }
+
+    &__note {
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        max-width: 937px;
+        width: 100%;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 76px;
+
+        @include tablet {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+            line-height: 1.0;
+        }
+
+        @include mobile {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+
+    &__item {
+
+        &-icon {
+            margin-block: 44px 36px;
+
+            @include tablet {
+                margin-block: 15px;
+            }
+        }
+
+        &-title {
+            margin-bottom: 16px;
+
+            @include tablet {
+                margin-bottom: 10px;
+            }
+        }
+
+        &-description {
+            margin: 0 32px 32px;
+
+            @include tablet {
+                margin: 0 10px 15px;
+            }
+        }
+
+    }
+
+
+}

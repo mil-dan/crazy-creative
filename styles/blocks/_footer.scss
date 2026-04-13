@@ -1,0 +1,221 @@
+@import '../media';
+
+.footer {
+    background-color: var(--color-pink);
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--color-purple);
+    }
+
+    &__title {
+        max-width: 882px;
+        width: 100%;
+        margin-block: 98px 93px;
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 1.1;
+        text-align: center;
+        background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(239, 233, 255, 1) 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include tablet {
+            font-size: 4rem;
+            font-weight: 600;
+        }
+
+        @include mobile {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+
+    &__image {
+        max-width: 1440px;
+        width: 100%;
+        aspect-ratio: 1440 / 1048;
+        background: url('../../images/Unicorn.svg') center / cover no-repeat;
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 40px;
+        border-radius: 32px;
+        background-color: var(--color-black);
+
+        @include desktop {
+            gap: 25px;
+            max-width: 90vw;
+        }
+
+        @include mobile {
+            justify-content: center;
+        }
+    }
+
+    &__content {
+        max-width: 485px;
+        flex: 1;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    &__subtitle {
+        max-width: 485px;
+        width: 100%;
+        color: var(--color-white);
+        font-size: 4.25rem;
+        font-weight: 600;
+        margin-bottom: 40px;
+
+        @include tablet {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+
+        @include mobile {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__description {
+        max-width: 298px;
+        width: 100%;
+        color: var(--color-gray-on-black);
+        font-size: 1.125rem;
+        margin-bottom: 40px;
+
+        @include tablet {
+            font-size: 1rem;
+        }
+
+        @include mobile {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        width: 100%;
+        max-height: 52px;
+        gap: 16px;
+
+        @include mobile {
+            justify-content: center;
+        }
+
+        @include mobile-s {
+            flex-direction: column;
+            align-items: center;
+            max-height: 100px;
+        }
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-lime);
+        color: var(--color-black);
+        max-width: 136px;
+        padding: 14px 24px 16px;
+        width: 100%;
+        border-radius: 40px;
+        font-size: 1rem;
+        font-weight: 500;
+
+        @include hover {
+            background-color: var(--color-white);
+            color: var(--color-purple);
+        }
+    }
+
+    &__btn {
+        background-color: var(--color-black);
+        color: var(--color-white);
+        width: 143px;
+        padding: 14px 24px 16px;
+        border-radius: 40px;
+        border: 1px solid var(--color-lime);
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+
+        @include hover {
+            background-color: var(--color-lime);
+            color: var(--color-black);
+        }
+    }
+
+    &__wrapper {
+        max-width: 531px;
+        flex: 1;
+
+        @include mobile {
+            display: none;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__docs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 38px 86px 38px 60px;
+
+        @include mobile {
+            flex-direction: column;
+            align-items:center;
+        }
+    }
+
+    &__logo {
+        @include mobile {
+            margin-bottom: 32px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 64px;
+        color: var(--color-white);
+
+        @include mobile {
+            gap: 32px;
+        }
+
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+
+        @include hover {
+            color: var(--color-black);
+        }
+    }
+    
+}

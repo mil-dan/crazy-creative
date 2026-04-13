@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1200 774" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200.000000" height="774.000000" fill="none">
+	<defs>
+		<clipPath id="clipPath_7">
+			<rect width="1200.000000" height="528.369995" x="0.000000" y="0.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<linearGradient id="paint_linear_120" x1="-63.6299973" x2="601.160095" y1="201.740021" y2="525.980103" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(123,252,233)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,255,255)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_121" x1="49.9100037" x2="603.069946" y1="-47.4199524" y2="525.400146" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(114,111,247)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,255,255)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_122" x1="363.72998" x2="605.249939" y1="-42.8399658" y2="526.139954" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,102,200)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,255,255)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_123" x1="633.75" x2="1166.04004" y1="508.950073" y2="249.340118" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,255,255)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(123,252,233)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_124" x1="596.929993" x2="1150.09009" y1="525.400024" y2="-47.420105" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,255,255)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(114,111,247)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_125" x1="594.75" x2="836.269958" y1="526.140015" y2="-42.8399048" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,255,255)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,102,200)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_126" x1="600" x2="600" y1="528.369995" y2="0.780029297" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,255,255)" offset="0.300000012" stop-opacity="1" />
+			<stop stop-color="rgb(254,219,1)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<clipPath id="clipPath_8">
+			<rect width="184.000000" height="442.392242" x="508.000000" y="331.086182" fill="rgb(255,255,255)" />
+		</clipPath>
+		<linearGradient id="paint_linear_127" x1="560.516907" x2="632.915771" y1="698.319702" y2="625.920837" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(94,73,244)" offset="0" stop-opacity="0" />
+			<stop stop-color="rgb(240,158,242)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_128" x1="561.820251" x2="585.075806" y1="642.685242" y2="619.429688" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(240,158,242)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(94,73,244)" offset="1" stop-opacity="0" />
+		</linearGradient>
+		<linearGradient id="paint_linear_129" x1="584.871277" x2="639.381287" y1="730.851868" y2="676.341858" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(240,158,242)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(94,73,244)" offset="1" stop-opacity="0" />
+		</linearGradient>
+	</defs>
+	<rect id="Magic Sword" width="1200.000000" height="774.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" />
+	<g id="color-burst 1" clip-path="url(#clipPath_7)" customFrame="url(#clipPath_7)">
+		<rect id="color-burst 1" width="1200.000000" height="528.369995" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+		<g id="Color">
+			<path id="Vector" d="M600 528.37L0 394.27L0 71.28L600 528.37Z" fill="url(#paint_linear_120)" fill-rule="nonzero" />
+			<path id="Vector" d="M600 528.37L260.97 0.780029L0 0.780029L0 71.28L600 528.37Z" fill="url(#paint_linear_121)" fill-rule="nonzero" />
+			<path id="Vector" d="M600 528.37L503.51 0.780029L260.97 0.780029L600 528.37Z" fill="url(#paint_linear_122)" fill-rule="nonzero" />
+			<path id="Vector" d="M600 528.37L1200 394.27L1200 71.28L600 528.37Z" fill="url(#paint_linear_123)" fill-rule="nonzero" />
+			<path id="Vector" d="M600 528.37L939.03 0.780029L1200 0.780029L1200 71.28L600 528.37Z" fill="url(#paint_linear_124)" fill-rule="nonzero" />
+			<path id="Vector" d="M600 528.37L696.49 0.780029L939.03 0.780029L600 528.37Z" fill="url(#paint_linear_125)" fill-rule="nonzero" />
+		</g>
+		<g id="Layer 5">
+			<path id="Vector" d="M526.84 145.45L600 528.37L673.16 145.45C686.61 62.07 758.58 0.780029 843.03 0.780029L356.97 0.780029C441.42 0.780029 513.39 62.07 526.84 145.45Z" fill="url(#paint_linear_126)" fill-rule="nonzero" />
+		</g>
+	</g>
+	<g id="sword 1" clip-path="url(#clipPath_8)" customFrame="url(#clipPath_8)">
+		<rect id="sword 1" width="184.000000" height="442.392242" x="508.000000" y="331.086182" fill="rgb(255,255,255)" fill-opacity="0" />
+		<g id="Color">
+			<path id="Vector" d="M690.288 594.283C690.288 611.405 676.411 625.256 659.289 625.256L540.507 625.256C523.385 625.256 509.508 611.405 509.508 594.283C509.508 577.16 523.385 563.309 540.507 563.309C548.276 563.309 555.38 566.172 560.824 570.874C564.759 574.273 567.826 578.668 569.615 583.652C570.841 586.974 571.506 590.552 571.506 594.283C571.506 596.25 571.327 598.167 570.969 600.007L628.827 600.007C628.469 598.167 628.29 596.25 628.29 594.283C628.29 590.552 628.955 586.974 630.181 583.652C632.073 578.413 635.369 573.838 639.586 570.363C644.953 565.942 651.801 563.309 659.289 563.309C676.411 563.309 690.288 577.16 690.288 594.283Z" fill="rgb(250,228,133)" fill-rule="nonzero" />
+			<path id="Vector" d="M628.29 594.283C628.29 596.251 628.469 598.167 628.827 600.007L570.969 600.007C571.327 598.167 571.506 596.251 571.506 594.283C571.506 590.552 570.841 586.974 569.615 583.652C586.993 579.461 599.898 563.821 599.898 545.165C599.898 563.821 612.804 579.461 630.181 583.652C628.955 586.974 628.29 590.552 628.29 594.283Z" fill="rgb(114,243,233)" fill-rule="nonzero" />
+			<path id="Vector" d="M632.251 625.256L632.251 640.794L567.621 705.449L567.621 676.98L619.346 625.256L632.251 625.256Z" fill="rgb(99,74,235)" fill-rule="nonzero" />
+			<path id="Vector" d="M632.251 640.794L632.251 669.237L577.767 723.773L567.621 723.773L567.621 705.449L632.251 640.794Z" fill="rgb(236,109,240)" fill-rule="nonzero" />
+			<path id="Vector" d="M645.233 738.135C645.233 742.096 643.623 745.674 641.017 748.28C638.41 750.887 634.832 752.497 630.846 752.497L569.027 752.497C561.079 752.497 554.639 746.057 554.639 738.135C554.639 734.174 556.249 730.57 558.856 727.964C561.462 725.382 565.066 723.772 569.027 723.772L630.846 723.772C638.793 723.772 645.233 730.187 645.233 738.135Z" fill="rgb(250,228,133)" fill-rule="nonzero" />
+			<path id="Vector" d="M619.499 752.497C619.499 763.154 610.861 771.792 600.205 771.792C589.548 771.792 580.885 763.154 580.885 752.497L619.499 752.497Z" fill="rgb(247,218,74)" fill-rule="nonzero" />
+			<path id="Vector" d="M590.877 625.256L567.621 648.511L567.621 625.256L590.877 625.256Z" fill="rgb(99,74,235)" fill-rule="nonzero" />
+			<path id="Vector" d="M619.346 625.256L567.621 676.98L567.621 648.511L590.877 625.256L619.346 625.256Z" fill="rgb(236,109,240)" fill-rule="nonzero" />
+			<path id="Vector" d="M632.251 669.237L632.251 697.706L606.21 723.773L577.767 723.773L632.251 669.237Z" fill="rgb(99,74,235)" fill-rule="nonzero" />
+			<path id="Vector" d="M632.252 697.706L632.252 723.772L606.21 723.772L632.252 697.706Z" fill="rgb(236,109,240)" fill-rule="nonzero" />
+			<path id="Vector" d="M639.382 378.951L639.382 570.541C635.267 573.991 632.047 578.515 630.182 583.651C612.804 579.46 599.898 563.82 599.898 545.165L599.898 333.079L600.001 332.951L639.382 378.951Z" fill="rgb(214,231,255)" fill-rule="nonzero" />
+			<path id="Vector" d="M599.898 333.079L599.898 545.165C599.898 563.821 586.992 579.461 569.615 583.652C567.826 578.668 564.759 574.273 560.824 570.874C560.747 570.823 560.696 570.772 560.619 570.695L560.619 378.952L599.898 333.079Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+		</g>
+		<g id="Shading">
+			<path id="Vector" d="M632.251 625.256L632.251 640.794L567.621 705.45L567.621 676.981L619.346 625.256L632.251 625.256Z" fill="url(#paint_linear_127)" fill-rule="nonzero" />
+			<path id="Vector" d="M590.877 625.256L567.621 648.512L567.621 625.256L590.877 625.256Z" fill="url(#paint_linear_128)" fill-rule="nonzero" />
+			<path id="Vector" d="M632.251 669.237L632.251 697.706L606.21 723.773L577.767 723.773L632.251 669.237Z" fill="url(#paint_linear_129)" fill-rule="nonzero" />
+			<path id="Rectangle 1" d="M600 434L639 394L639 413L600 453L600 434Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+			<path id="Rectangle 2" d="M600 463L639 423L639 472L600 512L600 463Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+		</g>
+		<g id="Lines">
+			<path id="Vector" d="M628.853 600.007C628.495 598.167 628.316 596.251 628.316 594.283C628.316 584.648 632.711 576.036 639.611 570.337C644.978 565.942 651.827 563.284 659.315 563.284C676.437 563.284 690.314 577.161 690.314 594.283C690.314 611.405 676.437 625.256 659.315 625.256L540.533 625.256C523.41 625.256 509.534 611.38 509.534 594.283C509.534 577.186 523.41 563.284 540.533 563.284C548.301 563.284 555.406 566.146 560.849 570.874C567.391 576.547 571.531 584.93 571.531 594.283C571.531 596.251 571.353 598.167 570.995 600.007" fill-rule="nonzero" stroke="rgb(34,31,32)" stroke-width="1.000000" />
+			<path id="Vector" d="M663.02 584.776C663.02 593.184 656.631 599.982 648.735 599.982L551.7 599.982C543.803 599.982 537.415 593.158 537.415 584.776" fill-rule="nonzero" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M560.619 570.874L560.619 378.926L600 332.926L639.381 378.926L639.381 570.337" fill-rule="nonzero" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M632.252 625.256L632.252 723.747L567.622 723.747L567.622 625.256L632.252 625.256Z" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M630.871 723.747C638.803 723.747 645.233 730.177 645.233 738.109L645.233 738.135C645.233 746.067 638.803 752.497 630.871 752.497L569.027 752.497C561.095 752.497 554.665 746.067 554.665 738.135L554.665 738.109C554.665 730.177 561.095 723.747 569.027 723.747L630.871 723.747Z" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M580.91 752.497C580.91 763.154 589.573 771.792 600.23 771.792C610.887 771.792 619.525 763.154 619.525 752.497" fill-rule="nonzero" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M590.903 625.256L567.647 648.511" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M619.371 625.256L567.647 676.98" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M632.277 640.794L567.647 705.424" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M632.277 669.238L577.792 723.747" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M632.277 697.706L606.236 723.747" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M569.64 583.652C587.018 579.461 599.924 563.821 599.924 545.14C599.924 563.821 612.829 579.461 630.207 583.652" fill-rule="nonzero" stroke="rgb(34,31,32)" stroke-linecap="round" stroke-width="1.000000" />
+			<path id="Vector" d="M212.213 0L0 0" stroke="rgb(34,31,32)" stroke-width="1.000000" transform="matrix(0,1,-1,0,599.924,332.926)" />
+		</g>
+	</g>
+</svg>

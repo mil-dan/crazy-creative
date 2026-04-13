@@ -1,0 +1,272 @@
+@import '../media';
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--color-black);
+
+
+    &__main {
+        background: linear-gradient(
+            to bottom,
+            var(--color-pink) 0%,
+            var(--color-pink) 65%,
+            var(--color-black) 65%,
+            var(--color-black) 100%
+        );
+        overflow: hidden;
+
+        &-title {
+        font-weight: 800;
+        text-shadow: 5px 5px 15px rgba(34, 60, 80, 0.6);
+        font-size: clamp(3rem, 8vw, 8.75rem);
+        line-height: 0.9;
+        max-width: 1000px;
+        margin: 95px auto 30px;
+
+            @include mobile {
+                margin: 25px auto;
+            }
+        }
+
+        &-image {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    }
+
+    &__execution {
+        position: relative;
+
+        &-title {
+            max-width: 850px;
+            margin: 142px auto 40px;
+
+            @include mobile {
+                margin-top: 40px;
+            }
+        }
+
+        &-subtitle {
+            color: var(--color-gray-on-black);
+            font-size: 1.5rem;
+            max-width: 587px;
+            margin: 0 auto 55px;
+
+            @include mobile {
+                font-size: 1rem;
+                margin-bottom: 25px;
+            }
+        }
+
+        &-container {
+            position: relative;
+            height: 533px;
+
+            &::after{
+                content: "";
+                display: block;
+                width: 343px;
+                height: 497px;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 10;
+                border-radius: 38% 38% 0 0;
+                background: -webkit-linear-gradient(180deg, rgb(132, 112, 255), rgb(173, 108, 255) 49%, rgb(0, 0, 0));
+                background: -moz-linear-gradient(180deg, rgb(132, 112, 255), rgb(173, 108, 255) 49%, rgb(0, 0, 0));
+                background: linear-gradient(180deg, rgb(132, 112, 255), rgb(173, 108, 255) 49%, rgb(0, 0, 0));
+            }
+
+            @include mobile {
+                display: none;
+            }
+        }
+
+        &-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 30;
+
+            @include mobile {
+                display: none;
+            }
+        }
+
+        &-ticker {
+            position: absolute;
+            bottom: 2%;
+            border-top: 1px solid var(--color-white);
+            border-bottom: 1px solid var(--color-white);
+            height: 70px;
+            max-width: 100%;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            overflow: hidden;
+            z-index: 20;
+            white-space: nowrap;
+
+            @include mobile {
+                display: none;
+            }
+        }
+
+    }
+
+    &__switch {
+        width: 100%;
+        overflow: hidden;
+
+        &-title {
+            max-width: 1040px;
+            margin: 105px auto 40px;
+
+            @include mobile {
+                margin-top: 40px;
+            }
+        }
+
+        &-subtitle {
+            color: var(--color-gray-on-black);
+            font-size: 1.5rem;
+            max-width: 733px;
+            margin: 0 auto 40px;
+
+            @include mobile {
+                font-size: 1rem;
+            }
+        }
+
+        &-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 5px;
+            margin: 0 auto 37px;
+            width: 190px;
+            height: 100px;
+            border: 1px solid var(--color-lime);
+            border-radius: 10px;
+            background-color: #434343;
+
+            @include mobile {
+                width: 100px;
+                height: 50px;
+            }
+        }
+
+        &-indicator {
+            width: 35px;
+            height: 35px;
+            border: 1px solid var(--color-white);
+            border-radius: 50%;
+
+            &.active {
+                background-color: var(--color-lime);
+                border-color: var(--color-lime);
+            }
+
+            @include mobile {
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        &-button {
+            width: 80px;
+            height: 80px;
+            border-left: 7px solid var(--color-black);
+            border-radius: 5px;
+            background: url('../../images/hero/btn.svg') center / cover no-repeat;
+            cursor: pointer;
+
+            @include hover {
+                border: 5px solid var(--color-lime);
+            }
+
+            @include mobile {
+                width: 30px;
+                height: 30px;
+                border: none;
+            }
+        }
+
+        &-image {
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+                transition: opacity 0.3s ease;
+                opacity: 1;
+
+                &.fade-out {
+                opacity: 0;
+                }
+            }
+        }
+    }
+
+    &__agency {
+        overflow: hidden;
+        background-color: #FFD600;
+
+        &-note {
+            max-width: 326px;
+            margin: 118px auto 16px;
+
+            @include mobile {
+                margin-top: 25px;
+            }
+        }
+
+        &-title {
+            max-width: 990px;
+            color: var(--color-black);
+            font-size: 4.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin: 0 auto 163px;
+
+            @include desktop {
+                font-size: 3rem;
+            }
+
+            @include mobile {
+                font-size: 2rem;
+                margin-bottom: 40px;
+            }
+        }
+
+        &-image {
+            max-width: 1440px;
+            width: 100%;
+            margin: 0 auto;
+
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+            }
+        }
+    }
+}

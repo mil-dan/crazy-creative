@@ -1,0 +1,57 @@
+@import '../media';
+
+.card {
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px 18px;
+
+        @include tablet {
+            gap: 15px;
+        }
+
+        @include mobile-s {
+            grid-template-columns: repeat(1, 1fr);
+            margin: 0 auto;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__icon {
+        color: var(--color-purple);
+    }
+
+    &__title {
+        font-size: 1.375rem;
+        font-weight: 600;
+        text-align: center;
+
+        @include tablet {
+            font-size: 1rem;
+        }
+
+        @include mobile {
+            font-size: 0.875rem;
+        }
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 1.125rem;
+        color: var(--color-gray);
+
+        @include tablet {
+            font-size: 1rem;
+        }
+
+        @include mobile {
+            font-size: 0.875rem;
+        }
+
+    }
+}
