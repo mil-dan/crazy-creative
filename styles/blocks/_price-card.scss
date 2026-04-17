@@ -1,4 +1,4 @@
-@import '../media';
+@use "../media" as *;
 
 .price-card {
     background-color: #F7F7F7;

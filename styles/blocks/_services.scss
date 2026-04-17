@@ -1,4 +1,4 @@
-@import '../media';
+@use "../media" as *;
 
 .services {
     display: flex;

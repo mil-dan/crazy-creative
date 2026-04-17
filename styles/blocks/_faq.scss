@@ -1,4 +1,4 @@
-@import '../media';
+@use "../media" as *;
 
 .faq {
     padding-block: 105px;

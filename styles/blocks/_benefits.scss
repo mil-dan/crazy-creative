@@ -1,4 +1,4 @@
-@import '../media';
+@use "../media" as *;
 
 .benefits {
     padding-block: 105px 99px;

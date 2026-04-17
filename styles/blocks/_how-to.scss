@@ -1,4 +1,4 @@
-@import '../media';
+@use "../media" as *;
 
 .how-to {
     display: flex;

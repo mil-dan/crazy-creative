@@ -1,4 +1,4 @@
-@import '../media';
+@use "../media" as *;
 
 .compare {
     display: flex;
